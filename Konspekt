@@ -1,0 +1,17 @@
+Struktura najczejśce spotykanych adnotacji
+                                              1.@TEST ------------>|
+                        |<--3.@AFTER METHOD<--2.@BEFORE METHOD <---|
+                        |-->4.@BEFORE CLASS-->5.@AFTER CLASS ----->|
+                                              6.@PARAMETERS <------|
+
+--- Assert.
+
+ (Asercja) Metoda celem, której jest sprawdzenie rozbieżności między oczekiwanym i rzeczywistym
+ rezultatem roboty oprogramowania.
+
+ -assertEquals(bool expected, bool actual);
+ -assertTrue (bool condition);
+ -assertFalse (bool condition);
+ -assertNotBull (Object obj);
+ -assertNull (Object obj)
+ -assertArrayEquals(expectedArray, resultArray);

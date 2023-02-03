@@ -1,0 +1,37 @@
+                         - znajdż jakikolwiek div
+css: div
+Xpath: //div
+                           - znajdż button w div
+css: div button
+XPath: //div/button
+                - znajdż button w pierwszej linejce div (bespośrednie dziecko elementu)
+css: div > button
+XPath: //div/button
+                             -wyszykiwanie po ID
+css:
+#firstName
+input#firstName
+input[id = 'firstName']
+XPath:
+//input[@id = 'firstName']
+                            -wyszukiwanie po nazwie klasy
+css:
+.email
+input.email
+div[class = 'email']
+XPath:
+//div[@class = 'email']
+                        CSS - wyszukiwanie po części wartości atrybutu
+css - calośc:
+div[class='some class name']
+css - prefis:
+div [class^='some cla']
+css - sufiks:
+div[class$='name']
+css substring:
+div[class*='class']
+                        XPath - wyszukiwanie potekście
+Poczęści textu:
+//button[contains(text(), 'login')]
+Dokładny text:
+//button[.='Click to login']

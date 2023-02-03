@@ -1,0 +1,6 @@
+Terminal:
+****************************************************************************************
+mvn test
+mvn clean
+mvn test -Dgroups="Example1"    ***** star tests with @Tag "Example1"
+mvn test -Dgroups="Example1" -DexcludedGroups="Example2" ***** start tests with @Tag "Example1", but without @Tag"Example2"
