@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c79c8a9-b0a0-4b5c-a316-ea9418e7bb1c" name="Changes" comment="Project Selenium" />
+    <list default="true" id="3c79c8a9-b0a0-4b5c-a316-ea9418e7bb1c" name="Changes" comment="Project Selenium">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Konspekt" beforeDir="false" afterPath="$PROJECT_DIR$/Konspekt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/junit-platform.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clue" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lokatory/Konspekt Lokatory" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lokatory/Konspekt Lokatory" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dsh/IdeaProjects/Selenium&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -106,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.addition (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="METHOD_NAME" value="addition(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.addition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -141,6 +165,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AutomationTest" />
+        <item itemvalue="JUnit.CalculatorTest.addition (1)" />
         <item itemvalue="JUnit.CalculatorTest.addition" />
         <item itemvalue="JUnit.AutomationTest.addition" />
         <item itemvalue="JUnit.AutomationTest.seleniumTest1" />
@@ -163,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675437557303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project Selenium">
+      <created>1675439507010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675439507010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
